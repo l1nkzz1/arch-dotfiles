@@ -1,8 +1,7 @@
-!.gitignore
-*
+.gitignore
 old_hyprland.conf
-autoinstall_arch.sh
-alacritty/
+*.sh
+
 
 
 
