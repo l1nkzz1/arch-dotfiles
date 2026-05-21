@@ -1,0 +1,12 @@
+{
+  "memory": {
+    "tooltip": false,
+    "interval": 15,
+    "format": "󰍛",
+    "format-alt": "󰍛 <span size='11pt'>{used}</span>",
+    "states": {
+      "warning": 75,
+      "critical": 85
+    }
+  }
+}
