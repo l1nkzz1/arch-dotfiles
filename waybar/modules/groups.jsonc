@@ -8,9 +8,7 @@
     "modules": [
       "custom/distro",
       "custom/terminal",
-      "custom/code",
-      "custom/obsidian",
-      "custom/office",
+      "custom/lunarvim",
       "custom/files",
       "custom/spotify",
       "custom/browser"

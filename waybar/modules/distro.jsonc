@@ -8,9 +8,9 @@
     "on-click": "alacritty",
     "tooltip": false
   },
-  "custom/code": {
-    "format": "󰨞",
-    "on-click": "neovim",
+  "custom/lunarvim": {
+    "format": "  ",
+    "on-click": "alacritty -e /home/linkz/.local/bin/lvim",
     "tooltip": false
   },
   "custom/files": {
@@ -27,5 +27,6 @@
     "format": "",
     "on-click": "librewolf",
     "tooltip": false
-  }
+  },  
+
 }
