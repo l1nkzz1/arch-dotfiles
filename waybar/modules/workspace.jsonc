@@ -5,7 +5,7 @@
     "persistent-workspaces": {
       "*": 5
     },
-    "window-rewrite-default": "󰊠",
+    "window-rewrite-default": "",
     "window-rewrite": {
       // --- Work ---
       "kitty": "󰆍",
@@ -44,9 +44,9 @@
       "qdbusviewer": "󰒓"
     },
     "format-icons": {
-      "active": "󰮯",
+      "active": "󰫢",
       "special": "󱁂",
-      "default": "󰊠",
+      "default": "",
       "urgent": "󰧵",
       "empty": ""
     },
