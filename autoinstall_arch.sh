@@ -10,7 +10,8 @@ echo "/_/  |_\____/ /_/  \____/___/_/ |_//____//_/ /_/  |_/_____/_____/ "
 
 command -v yay &> /dev/null || { printf "yay is not installed, please install before running the autoinstaller\n"; exit 1; }
 
-yay -S wlogout waybar alacritty hyprlock-git hyprpaper-git
+## yay -S wlogout waybar alacritty 
+yay -S hyprlock-git hyprpaper-git
 sudo pacman -S ttf-hack-nerd
 
 cd
