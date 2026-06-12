@@ -24,11 +24,12 @@
 
 For this installation I'll be assuming you already have all the following apps:
 
-- **Terminal**:[Alacritty](https://github.com/alacritty/alacritty)
-- **Shell**:[ZSH](https://github.com/ohmyzsh/ohmyzsh)
-- **Shell Theme**:[p10k](https://github.com/romkatv/powerlevel10k)
-- **Waybar**:[Waybar](https://github.com/Alexays/Waybar/)
-- **Wlogout**:[Wlogout](https://github.com/ArtsyMacaw/wlogout)
+- **Terminal**:[Alacritty] (https://github.com/alacritty/alacritty)
+- **Shell**:[ZSH] (https://github.com/ohmyzsh/ohmyzsh)
+- **Shell Theme**:[p10k] (https://github.com/romkatv/powerlevel10k)
+- **Waybar**:[Waybar] (https://github.com/Alexays/Waybar/)
+- **Wlogout**:[Wlogout] (https://github.com/ArtsyMacaw/wlogout)
+- **Sddm-theme**: [Anime-theme] (https://github.com/l1nkzz1/Anime-sddm-theme)
 
 Above you can find links for the apps, as well as the installation guide for each one. 
 
