@@ -4,6 +4,13 @@
 
 ---
 
+![Desktop](./assets/desktop.png)
+
+---
+
+
+---
+
 <div align="center">
     <h1>Welcome to my dotfiles</h1>
 </div>
@@ -15,6 +22,8 @@
  A Hyprland theme inspired by the many ricing that I've seen in the internet, which made me think: "I want to do it too!".
 
  This repository includes my dotfiles and the autoinstaller script that for now only works on Arch Linux.
+
+ **Attention: This is not a final version, and I will be updating it over time.*   
 
 </div>
 
@@ -29,7 +38,7 @@ For this installation I'll be assuming you already have all the following apps:
 - **Shell Theme**:[p10k] (https://github.com/romkatv/powerlevel10k)
 - **Waybar**:[Waybar] (https://github.com/Alexays/Waybar/)
 - **Wlogout**:[Wlogout] (https://github.com/ArtsyMacaw/wlogout)
-- **Sddm-theme**: [Anime-theme] (https://github.com/l1nkzz1/Anime-sddm-theme)
+- **Sddm-theme**: [Anime-theme] (https://github.com/l1nkzz1/New-Anime-sddm-theme)
 
 Above you can find links for the apps, as well as the installation guide for each one. 
 
