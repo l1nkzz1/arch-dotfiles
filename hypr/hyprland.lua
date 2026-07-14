@@ -57,14 +57,14 @@ end)
 ---- ENVIRONMENT VARIABLES ----
 -------------------------------
 
-hl.env("XCURSOR_SIZE,24")
-hl.env("HYPRCURSOR_SIZE,24")
-hl.env("XDG_CURRENT_DESKTOP,Hyprland")
-hl.env("XDG_SESSION_TYPE,wayland")
-hl.env("XDG_SESSION_TYPE,Hyprland")
-hl.env("GDK_BACKEND,wayland,x11,*")
-hl.env("SDL_VIDEO_DRIVER,wayland")
-hl.env("SDL_VIDEO_DRIVER,wayland")
+hl.env("XCURSOR_SIZE", "24")
+hl.env("HYPRCURSOR_SIZE", "24")
+hl.env("XDG_CURRENT_DESKTOP", "Hyprland")
+hl.env("XDG_SESSION_TYPE", "wayland")
+hl.env("XDG_SESSION_TYPE", "Hyprland")
+hl.env("GDK_BACKEND,wayland", "x11,*")
+hl.env("SDL_VIDEO_DRIVER", "wayland")
+hl.env("SDL_VIDEO_DRIVER", "wayland")
 
 -----------------------
 ---- LOOK AND FEEL ----
@@ -79,7 +79,7 @@ hl.config({
         border_size = 3,
 
         col = {
-            active_border = { colors = {rgba(33ccffee) rgba(00ff99ee)}, angle = 45},
+            active_border = { colors = {"rgba(33ccffee)", "rgba(00ff99ee)"}, angle = 45},
             inactive_border = "rgba(595959aa)",
         },
 
@@ -175,7 +175,7 @@ hl.config({
     input = {
         kb_layout = "br",
         kb_variant = "abnt2",
-        kb_model = "abnt2"
+        kb_model = "abnt2",
         kb_options = "",
         kb_rules = "",
 
@@ -199,8 +199,8 @@ hl.config({
 -- See https://wiki.hypr.land/Configuring/Advanced-and-Cool/Devices/ for more
 
 hl.device({
--   name        = "epic-mouse-v1",
--   sensitivity = -0.5,
+   name        = "epic-mouse-v1",
+   sensitivity = -0.5,
 })
 
 ---------------------
@@ -217,11 +217,11 @@ hl.bind(mainMod .. " + M", hl.dsp.exec_cmd("command -v hyprshutdown >/dev/null 2
 
 hl.bind(mainMod .. " + E", hl.dsp.exec_cmd(fileManager))
 hl.bind(mainMod .. " + V", hl.dsp.window.float({ action = "toggle" }))
-hl.bind(mainMod .. " + Space", hl.dsp.exec_cmd("pgrep -x -f "$menu" || $menu")) -- open & close menu
+hl.bind(mainMod .. " + Space", hl.dsp.exec_cmd("pgrep -x -f '" .. menu .. "' || " .. menu)) -- open & close menu
 hl.bind(mainMod .. " + L", hl.dsp.exec_cmd("pkill wlogout || wlogout")) -- open & close logout menu
 
 -- Waybar bind
-hl.bind(maindMod .. " + Escape", hl.dsp.exec_cmd("killall waybar || waybar"))
+hl.bind(mainMod .. " + Escape", hl.dsp.exec_cmd("killall waybar || waybar"))
 
 
 -- Move focus with mainMod + arrow keys
